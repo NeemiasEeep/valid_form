@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media (min-width : 1440px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-desktop.png");
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+    h1,
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    .esquerda {
+        margin: 14em 11em;
+    }
+
+    .blue-button {
+        color: white;
+        background-color: hsl(248, 32%, 49%);
+        width: 100%;
+        height: 3em;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .direita {
+        margin: 8em;
+    }
+
+    .card {
+        background-color: white;
+        margin-top: 1em;
+        padding: 2em;
+        border-radius: 10px;
+    }
+
+    input {
+        border-radius: 5px;
+        height: 3em;
+        width: 100%;
+        border-style: solid;
+        margin: 0.5em 0em;
+        border-color: rgb(189, 189, 189);
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    ::placeholder {
+        padding: 0.5em;
+    }
+
+    .green-button {
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        width: 100%;
+        height: 3em;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .termo {
+        color: hsl(246, 25%, 77%);
+        text-align: center;
+        font-size: 0.7em;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    
+
+}
+
+@media (max-width:800px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-desktop.png");
+    }
+
+    main {
+        display: block;
+    }
+
+
+
+    h1,
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    .esquerda {
+        margin: 2em;
+    }
+
+    .blue-button {
+        color: white;
+        background-color: hsl(248, 32%, 49%);
+        width: 100%;
+        height: 3em;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .direita {
+        margin: 2em;
+    }
+
+    .card {
+        background-color: white;
+        margin-top: 1em;
+        padding: 2em;
+        border-radius: 10px;
+    }
+
+    input {
+        border-radius: 5px;
+        height: 3em;
+        width: 100%;
+        border-style: solid;
+        margin: 0.5em 0em;
+        border-color: rgb(189, 189, 189);
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+
+    ::placeholder {
+        padding: 0.5em;
+    }
+
+    .green-button {
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        width: 100%;
+        height: 3em;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .termo {
+        color: hsl(246, 25%, 77%);
+        text-align: center;
+        font-size: 0.7em;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+    .error {
+        border: 1px solid red;
+        color: red;
+    }
+
+    
+}
